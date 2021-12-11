@@ -1,10 +1,11 @@
 package main
 
 import (
+	"os"
+
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/spf13/viper"
-	"os"
 	"xietong.me/ginessential/common"
 )
 
